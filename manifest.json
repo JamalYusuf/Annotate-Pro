@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Annotate Pro — Sharp Annotations",
+  "short_name": "Annotate",
+  "version": "1.0.0",
+  "description": "Powerful, minimal annotation tool for any webpage. Freehand, shapes, laser, eraser with sharp professional UI and red accent.",
+  "author": "Jamal Yusuf",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Annotate this page",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "commands": {
+    "toggle-annotation": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "Toggle annotation mode on the current page"
+    }
+  },
+  "minimum_chrome_version": "102"
+}

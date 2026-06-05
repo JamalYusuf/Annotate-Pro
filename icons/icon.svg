@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Dark professional background -->
+  <rect width="128" height="128" fill="#0a0a0a"/>
+  
+  <!-- Sharp red accent border -->
+  <rect x="8" y="8" width="112" height="112" fill="none" stroke="#ff0000" stroke-width="8"/>
+  
+  <!-- Sharp annotation stroke (freehand-like decisive lines) -->
+  <polyline 
+    points="24,40 48,72 72,32 104,64" 
+    fill="none" 
+    stroke="#ff0000" 
+    stroke-width="12" 
+    stroke-linecap="square" 
+    stroke-linejoin="miter"/>
+  
+  <!-- Small sharp arrow head at end to represent precision -->
+  <polygon 
+    points="104,64 88,52 88,76" 
+    fill="#ff0000"/>
+</svg>
