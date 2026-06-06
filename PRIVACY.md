@@ -72,7 +72,7 @@ We may update this Privacy Policy from time to time. When we do, we will revise 
 If you have any questions about this Privacy Policy, please contact us at:
 
 **xAI**  
-Email: support@x.ai
+Github Issues: https://github.com/JamalYusuf/Annotate-Pro/issues
 
 ---
 
